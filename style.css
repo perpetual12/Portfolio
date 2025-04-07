@@ -280,6 +280,7 @@ section {
     gap: 2rem;
     margin-bottom: 4rem;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -302,12 +303,6 @@ section {
     position: absolute;
     right: -5rem;
     bottom: 2.5rem;
-}
-
-.arrow2 {
-    position: absolute;
-    right: -5rem;
-    bottom: 0.5rem;
 }
 
 .details-container {
@@ -386,6 +381,8 @@ article .icon {
 .project-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    
 }
 
 .project-img {
@@ -403,11 +400,13 @@ article .icon {
 }
 
 .project-details-container {
-    width: 100%;
+    width: 42%;
     text-align: center;
     padding: 20px;
     border: rgb(163, 163, 163) solid 0.1rem;
     border-radius: 30px;
+   
+    
 }
 
 .project-title {

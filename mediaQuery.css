@@ -7,6 +7,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    .project-details-container {
+        width: 100%;
+    }
 }
 
 @media  screen and (max-width: 1200px) {
@@ -30,7 +34,7 @@
         display: none;
     }
 
-    section, .section-container .project-container {
+    section, .section-container  {
         height: fit-content;
     }
 
